@@ -24,7 +24,7 @@
   width: 40px;
   height: 40px;
   position: relative;
-  bottom : 225px;
+  bottom : 10px;
 }
 
 .App-header {
@@ -51,23 +51,26 @@
   }
 }
 #title {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   position: relative;
-  bottom:275px;
+  bottom:40px;
   animation-name: colorchange;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction:alternate;
 }
 #generate {
+  font-family:'Courier New', Courier, monospace;
   background-color: red;
   color:white;
   font-size:50px;
   position:relative;
-  top:-180px;
+  top:100px;
 }
 #joke-display {
+  font-family: cursive;
   position:relative;
-  bottom:200px;
+  bottom:-100px;
 }
 a {
   color:#b5fff9;
@@ -76,7 +79,20 @@ a:visited {
   color:#6efff3;
 }
 a:hover {
-  background-color: #b5fff9;
+  background-color: #441f1f;
   color: orange
 }
-
+#favoratize {
+  background-color: red;
+  color:white;
+  position: relative;
+  bottom:-100px;
+}
+#list {
+  position: relative;
+  top:50px;
+}
+#listtitle {
+  position: relative;
+  top:85px;
+}

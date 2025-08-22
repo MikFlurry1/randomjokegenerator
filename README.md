@@ -9,4 +9,5 @@ This is a game where you click a button and then it displays a random joke!!!!
 ### Or
 1. Visit https://mikflurry1.github.io/randomjokegenerator/ to view my Joking game!
 ## Most Recent Update
-1. Just made it !!!!
+1. Added new fonts in the game
+2. Added a favorites list
