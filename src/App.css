@@ -24,7 +24,7 @@
   width: 40px;
   height: 40px;
   position: relative;
-  bottom : 300px;
+  bottom : 225px;
 }
 
 .App-header {
@@ -52,7 +52,7 @@
 }
 #title {
   position: relative;
-  bottom:325px;
+  bottom:275px;
   animation-name: colorchange;
   animation-duration: 5s;
   animation-iteration-count: infinite;
