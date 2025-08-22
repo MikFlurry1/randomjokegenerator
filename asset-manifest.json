@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mikflurry.github.io/randomjokegenerator/static/css/main.cfa50ed8.css",
+    "main.js": "/mikflurry.github.io/randomjokegenerator/static/js/main.10f3151b.js",
+    "static/js/453.6b4898b4.chunk.js": "/mikflurry.github.io/randomjokegenerator/static/js/453.6b4898b4.chunk.js",
+    "index.html": "/mikflurry.github.io/randomjokegenerator/index.html",
+    "static/media/spinningpic.ico": "/mikflurry.github.io/randomjokegenerator/static/media/spinningpic.0920a6c4e43c614fdea8.ico",
+    "main.cfa50ed8.css.map": "/mikflurry.github.io/randomjokegenerator/static/css/main.cfa50ed8.css.map",
+    "main.10f3151b.js.map": "/mikflurry.github.io/randomjokegenerator/static/js/main.10f3151b.js.map",
+    "453.6b4898b4.chunk.js.map": "/mikflurry.github.io/randomjokegenerator/static/js/453.6b4898b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfa50ed8.css",
+    "static/js/main.10f3151b.js"
+  ]
+}
