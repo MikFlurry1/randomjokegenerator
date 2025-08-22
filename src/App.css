@@ -65,12 +65,12 @@
   color:white;
   font-size:50px;
   position:relative;
-  top:100px;
+  top:20px;
 }
 #joke-display {
   font-family: cursive;
   position:relative;
-  bottom:-100px;
+  bottom:-30px;
 }
 a {
   color:#b5fff9;
@@ -86,13 +86,22 @@ a:hover {
   background-color: red;
   color:white;
   position: relative;
-  bottom:-100px;
+  bottom:-30px;
 }
 #list {
   position: relative;
-  top:50px;
+  top:-20px;
+  list-style:none;
 }
 #listtitle {
   position: relative;
-  top:85px;
+  top:30px;
+}
+#footer {
+  position : relative;
+  top:100px;
+}
+.delete {
+  background-color: red;
+  color:white;
 }

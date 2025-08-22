@@ -30,6 +30,12 @@ function App() {
     }
     console.log(favorites);
   }
+  const deleteItem = (i) => {
+    const newFavorites = [...favorites];
+    newFavorites.splice(i, 1);
+    setFavorites(newFavorites);
+    localStorage.setItem("favorites", JSON.stringify(newFavorites));
+  };
   return (
     <div className="App">
       <header className="App-header">
@@ -39,16 +45,24 @@ function App() {
         <p id="joke-display">
           The random joke is : {joke}
         </p>
-        <button id="favoratize" onClick={addToFavorites}>Add this joke to favorites (max 5)</button>
-        <h3 id="listtitle">Favorites</h3>
-        <ul id="list">
-          <li>{favorites[0]}</li>
-          <li>{favorites[1]}</li>
-          <li>{favorites[2]}</li>
-          <li>{favorites[3]}</li>
-          <li>{favorites[4]}</li>
-        </ul>
-        <p>Hope you had fun!!! Visit my <a href="https://github.com/MikFlurry1" id="link">Github</a></p>
+        {joke && (<>
+          <button id="favoratize" onClick={addToFavorites}>Add this joke to favorites (max 5)</button>
+        </>)}
+
+        {favorites.length > 0 && (<>
+          <h3 id="listtitle">Favorites</h3>
+          <ul id="list">
+            {/* <li>{favorites[0]}</li>
+            <li>{favorites[1]}</li>
+            <li>{favorites[2]}</li>
+            <li>{favorites[3]}</li>
+            <li>{favorites[4]}</li> */}
+            {favorites.map((item, index) => (
+              <li key={index}>{item}<button onClick={() => { deleteItem(index) }} className='delete'>DELETE</button></li>
+            ))}
+          </ul>
+        </>)}
+        <p id="footer">Hope you had fun!!! Visit my <a href="https://github.com/MikFlurry1" id="link">Github</a></p>
       </header>
     </div>
   );
